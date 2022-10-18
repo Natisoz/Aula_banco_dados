@@ -7,3 +7,36 @@ create table `sz-00006-ws.turma880.alunos_Natalia` (
   estado string,
   formacao string
 )
+
+Questão 2
+
+alter table `sz-00006-ws.turma880.alunos_Natalia`
+rename column estado to UF
+
+Questão 3
+
+alter table `sz-00006-ws.turma880.alunos_Natalia`
+add column email string
+
+alter table `sz-00006-ws.turma880.alunos_Natalia`
+add column telefone string
+
+Questão 4
+
+alter table `sz-00006-ws.turma880.alunos_Natalia`
+drop column ID
+
+Questão 5
+
+drop table turma880.alunos_Natalia
+
+Questão 6
+
+create table `sz-00006-ws.turma880.Vendedor_Natalia` (
+  ID int64 not null,
+  nome_cliente string,
+  telefone string,
+  endereco string,
+  email string,
+  cartao string 
+)
