@@ -1,1 +1,1 @@
-# Aula_banco_dados
+# Curso_Banco_de_Dados
