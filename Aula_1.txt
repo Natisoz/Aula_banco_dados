@@ -1,0 +1,9 @@
+Questão 1
+
+create table `sz-00006-ws.turma880.alunos_Natalia` (
+  ID int64 not null, 
+  matricula string,
+  nome string,
+  estado string,
+  formacao string
+)
