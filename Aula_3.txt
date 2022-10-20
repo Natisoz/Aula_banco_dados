@@ -29,11 +29,11 @@ delete from turma880.filmes_Natalia where id = 6
 Questão 5
 
 select
-primeiro_nome,
-ultimo_nome,
-idade
-from turma880.alunos_Natalia_copia
-where idade in (23, 33)
+id,
+nome,
+categoria
+from turma880.filmes_Natalia
+where id in (1, 2)
 
 Questão 6
 
@@ -47,6 +47,8 @@ Questão 7
 select
 id,
 nome,
-categoria
+categoria,
+duracao,
+lancamento
 from turma880.filmes_Natalia
-where id in (1, 2)
+where categoria = 'Romance' and lancamento = '2012-06-07'
