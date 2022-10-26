@@ -1,0 +1,19 @@
+create table `sz-00006-ws.emp_Alpha.clientes` (
+nome string,
+telefone string,
+email string,
+)
+
+create table `sz-00006-ws.emp_Alpha.pedidos` (
+  codigo_produto string
+)
+
+create table `sz-00006-ws.emp_Alpha.produtos` (
+  detalhe_produto string,
+  marca string,
+  preco float64
+)
+
+create table `sz-00006-ws.emp_Alpha.vendas` (
+  desconto_venda float64
+)

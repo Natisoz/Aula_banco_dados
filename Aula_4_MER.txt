@@ -1,0 +1,19 @@
+Entidades:
+
+- Clientes
+- Pedidos
+- Produtos
+- Venda
+
+Atributos: 
+
+- Clientes: Nome, telefone, email
+- Pedidos: Código do produto
+- Produtos: Detalhe do produto, marca, preço
+- Venda: Desconto da venda
+
+Relacionamentos:
+
+cliente ----> pedido	
+pedido -----> produto
+venda ------> -----> pedido
